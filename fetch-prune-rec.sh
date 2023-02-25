@@ -1,0 +1,1 @@
+for d in ./*/ ; do (cd "$d" && git fetch --prune); done
