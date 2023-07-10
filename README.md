@@ -12,6 +12,4 @@
 
 - [Migrar ejemplo de React 2021 a 2022](./migraciones/migrar-react-2022.sh): tenés que bajarte el proyecto en `-old` y genera un proyecto nuevo con Create React App pasando fuentes y cosas generales. Requiere que luego revises bien el proyecto.
 - [Migrar ejemplo de Kotlin 2022 a 2023](./migraciones/migrar-kotlin-2023.sh): pararse en el raíz y pasarle como parámetros la carpeta de origen donde está migrado el ejemplo y la carpeta destino donde está el ejemplo que querés migrar.
-
-
-
+- [Migrar ejemplo de Angular 2022 a 2023](./migraciones/migrar-angular.sh): te parás en el raíz, le pasás el nombre simple del proyecto en github, te clona el proyecto en `-old` y genera un proyecto nuevo con ng new pasando fuentes y cosas generales. Requiere que luego revises bien el proyecto.
