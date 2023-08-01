@@ -4,9 +4,9 @@ then
   exit 1
 fi
 
-# git clone git@github.com:uqbar-project/$1.git
-# mv $1 $1-old
-# npm create vite@latest $1
+git clone git@github.com:uqbar-project/$1.git
+mv $1 $1-old
+npm create vite@latest $1
 cd $1
 
 # Copying base files
