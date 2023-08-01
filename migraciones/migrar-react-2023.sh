@@ -29,7 +29,7 @@ cp -R ../$1-old/images . | true
 cp ../$1-old/public/favicon.ico public
 cp -R ../$1-old/src .
 # renaming all *.js to *.jsx
-find . -name '*.js' -exec mv {} {}x \;
+find . -name '*.js' -not \( -path "./vite.config.js" -o -path "./node_modules/*" \) -exec mv {} {}x \;
 
 # Reinstall dependencies
 rm -f package-lock.json
