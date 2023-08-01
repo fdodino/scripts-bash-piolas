@@ -6,7 +6,7 @@ fi
 
 git clone git@github.com:uqbar-project/$1.git
 mv $1 $1-old
-npm create vite@latest $1 --template react-swc
+npm create vite@latest $1 -- --template react-swc
 cd $1
 
 # Copying base files
