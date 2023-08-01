@@ -1,17 +1,17 @@
-if [ ! -d $1 ];
+if [ -d $1 ];
 then
-  echo "$1: not found"
+  echo "$1: already exists. Please remove the project folder and try again."
   exit 1
 fi
 
 git clone git@github.com:uqbar-project/$1.git
 mv $1 $1-old
-npm create vite@latest $1
+npm create vite@latest $1 --template react-swc
 cd $1
 
 # Copying base files
 BASE=eg-hola-mundo-react
-cp ../$BASE/.eslint.cjs .
+cp ../$BASE/.eslintrc.cjs .
 cp -R ../$BASE/.github .
 cp ../$BASE/.markdownlint.json .
 echo 20.4.0 > .nvmrc
@@ -32,7 +32,7 @@ cp -R ../$1-old/src .
 find . -name '*.js' -exec mv {} {}x \;
 
 # Reinstall dependencies
-rm package-lock.json
+rm -f package-lock.json
 npm install -D @testing-library/react @vitest/coverage-v8 @vitejs/plugin-react jsdom prettier vitest
 
 # Revisar
