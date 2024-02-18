@@ -1,0 +1,13 @@
+./migrar-gradle-2024.sh eg-agricultores-kotlin
+./migrar-gradle-2024.sh eg-generics-kotlin
+./migrar-gradle-2024.sh eg-lista-correo-kotlin
+./migrar-gradle-2024.sh eg-manejo-proyectos-kotlin
+./migrar-gradle-2024.sh eg-maquina-helado-kotlin
+./migrar-gradle-2024.sh eg-microprocesador-kotlin
+./migrar-gradle-2024.sh eg-monedero-kotlin
+./migrar-gradle-2024.sh eg-seleccion-personal-kotlin
+./migrar-gradle-2024.sh eg-stock-refactor-kotlin
+./migrar-gradle-2024.sh eg-stock-refactor-kotlin-resuelto
+./migrar-gradle-2024.sh eg-tarjeta-credito-kotlin
+./migrar-gradle-2024.sh eg-turistas-kotlin
+./migrar-gradle-2024.sh eg-vehiculos-kotlin
