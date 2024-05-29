@@ -36,8 +36,9 @@ cp -R ./$proyecto-old/README.md ./$proyecto  2> /dev/null
 
 mv ./$proyecto-old/.git ./$proyecto
 
-# Commiteamos el proyecto
+# Commiteamos el proyecto con un build previo
 cd $proyecto
+stack build --test
 git add .
 git commit -m "Migración pdepreludat 2024"
 git push
