@@ -24,8 +24,8 @@ sed -i 's/0.8.11/0.8.12/g' ./build.gradle.kts
 # Versión de Mockk
 sed -i 's/1.13.9/1.13.16/g' ./build.gradle.kts
 
-# CI
-cp ../eg-seguros-kotlin/.github/workflows/build.yml .github/workflows/build.yml
+# CI -> revisar cuál es el proyecto del cual queremos actualizar el archivo build.yml
+cp ../eg-vehiculos-kotlin/.github/workflows/build.yml .github/workflows/build.yml
 
 git add .
 git commit -m "2025 migration"
