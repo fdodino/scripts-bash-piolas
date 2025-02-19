@@ -1,8 +1,8 @@
 # Script para ejecutar en el raíz donde se descargan los proyectos
 cd $1
 
-git pull
 git checkout $2
+git pull
 
 # Versión Gradle -------------------------------------------
 # Elegir la de seguros-kotlin como la última versión de Gradle que vamos a usar

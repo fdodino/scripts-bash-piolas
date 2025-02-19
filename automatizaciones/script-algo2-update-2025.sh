@@ -1,23 +1,25 @@
-./migrar-gradle-2024.sh eg-agricultores-kotlin master
-./migrar-gradle-2024.sh eg-agricultores-kotlin refactor
-./migrar-gradle-2024.sh eg-generics-kotlin master
-./migrar-gradle-2024.sh eg-lista-correo-kotlin master
-./migrar-gradle-2024.sh eg-lista-correo-kotlin 01-observers-constructor
-./migrar-gradle-2024.sh eg-lista-correo-kotlin 02-observers-setter
-./migrar-gradle-2024.sh eg-lista-correo-kotlin 03-observers-singleton
-./migrar-gradle-2024.sh eg-lista-correo-kotlin 04-observers-service-locator
-./migrar-gradle-2024.sh eg-manejo-proyectos-kotlin master
-./migrar-gradle-2024.sh eg-maquina-helado-kotlin master
-./migrar-gradle-2024.sh eg-microprocesador-kotlin master
-./migrar-gradle-2024.sh eg-microprocesador-kotlin creacionales
-./migrar-gradle-2024.sh eg-monedero-kotlin master
-./migrar-gradle-2024.sh eg-seleccion-personal-kotlin master
-./migrar-gradle-2024.sh eg-stock-refactor-kotlin master
-./migrar-gradle-2024.sh eg-stock-refactor-kotlin-resuelto master
-./migrar-gradle-2024.sh eg-tarjeta-credito-kotlin master
-./migrar-gradle-2024.sh eg-tarjeta-credito-kotlin 01-builder
-./migrar-gradle-2024.sh eg-tarjeta-credito-kotlin 02-strategy
-./migrar-gradle-2024.sh eg-tarjeta-credito-kotlin 03-decorator
-./migrar-gradle-2024.sh eg-tarjeta-credito-kotlin 04-delegated-classes
-./migrar-gradle-2024.sh eg-turistas-kotlin master
-# ./migrar-gradle-2024.sh eg-vehiculos-kotlin master ya migrado
+# ./migrar-algo2-2025.sh eg-agricultores-kotlin master
+./migrar-algo2-2025.sh eg-agricultores-kotlin refactor
+
+# ./migrar-algo2-2025.sh eg-generics-kotlin master
+# ./migrar-algo2-2025.sh eg-lista-correo-kotlin master
+# ./migrar-algo2-2025.sh eg-lista-correo-kotlin 01-observers-constructor
+# ./migrar-algo2-2025.sh eg-lista-correo-kotlin 02-observers-setter
+# ./migrar-algo2-2025.sh eg-lista-correo-kotlin 03-observers-singleton
+# ./migrar-algo2-2025.sh eg-lista-correo-kotlin 04-observers-service-locator
+# ./migrar-algo2-2025.sh eg-manejo-proyectos-kotlin master
+# ./migrar-algo2-2025.sh eg-maquina-helado-kotlin master
+# ./migrar-algo2-2025.sh eg-microprocesador-kotlin master
+# ./migrar-algo2-2025.sh eg-microprocesador-kotlin creacionales
+# ./migrar-algo2-2025.sh eg-monedero-kotlin master
+# ./migrar-algo2-2025.sh eg-seleccion-personal-kotlin master
+# ./migrar-algo2-2025.sh eg-stock-refactor-kotlin master
+# ./migrar-algo2-2025.sh eg-stock-refactor-kotlin-resuelto master
+# ./migrar-algo2-2025.sh eg-tarjeta-credito-kotlin master
+# ./migrar-algo2-2025.sh eg-tarjeta-credito-kotlin 01-builder
+# ./migrar-algo2-2025.sh eg-tarjeta-credito-kotlin 02-strategy
+# ./migrar-algo2-2025.sh eg-tarjeta-credito-kotlin 03-decorator
+# ./migrar-algo2-2025.sh eg-tarjeta-credito-kotlin 04-delegated-classes
+# ./migrar-algo2-2025.sh eg-turistas-kotlin master
+
+# ./migrar-algo2-2025.sh eg-vehiculos-kotlin master ya migrado
